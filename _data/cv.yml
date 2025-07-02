@@ -2,96 +2,71 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Sanan Hasanov
     - name: Languages
-      value: English, German
+      value: Azerbaijani, English, Turkish
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science
+      institution: University of Central Florida, Orlando, FL
+      year: expected 2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advisor: Dr. Paul Gazzillo
+        - Member of APPLeSEEd Lab
+    - title: Computer Engineering
+      institution: Baku Higher Oil School
+      year: 2017 - 2022
       description:
-        - Description 1.
-        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: University of Central Florida, Orlando, FL
+      year: Aug 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Leading a team in kernel configuration research, engineering and deploying automation scripts, initiating configuration-aware fuzzing for Linux kernel security, and authoring research papers.
+    - title: Summer Intern
+      institution: Trail of Bits, New York City, NY
+      year: Jun 2024 - Aug 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Contributing to value generation logic for Medusa, utilizing goroutines for data extraction and corpus collection, and refactoring the tracing logic of Medusa.
+        - Supervisor: Anish Naik
+    - title: Security Research Intern
+      institution: Margin Research, New York City, NY
+      year: Jun 2023 - Aug 2023
       description:
+        - Developing tools for open-source repositories, integrating custom security tools into the Reagent platform, and authoring a guide on smart contract vulnerabilities.
+        - Supervisor: Sophia d'Antoine, Ian Roos
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Technical Skills
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Syzkaller
+        - QEMU
+        - Bash
+        - Python
+        - Go
+        - C
+        - Vim
+        - Git
+        - Docker
+        - AWS
 
-- title: Other Interests
-  type: list
+- title: Publications
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: <a href="https://drive.google.com/file/d/1KRtgWr6HkP1C8V0r4YawQyIGFTF5C70W/view?usp=sharing">Can You Fuzz Me Now? Overcoming Configuration Blind Spots via Configuration-aware Kernel Fuzzing</a>
+      institution: Preprint
+      year: 2023
+      description:
+        - Authors Sanan Hasanov, Stefan Nagy, Paul Gazzillo.
+    - title: <a href="https://drive.google.com/file/d/1MuCOo7rLF7Ci4d-MaqqZHfOme8WjL9Mm/view?usp=sharing">A Little Goes a Long Way Tuning Configuration Selection for Continuous Kernel Fuzzing</a>
+      institution: 47th IEEE/ACM International Conference on Software Engineering (ICSE)
+      year: 2025
+      description:
+        - Authors Sanan Hasanov, Stefan Nagy, Paul Gazzillo.
